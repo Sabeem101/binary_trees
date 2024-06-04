@@ -6,7 +6,8 @@
  * @value: value to store in the new node.
  *
  * Return: a pointer to the created node, NULL on failure or if parent is NULL.
- * if parent has a left-child, the new node must take its place, and the old node must be set as the left-child of the now node
+ * if parent has a left-child, the new node must take its place,
+ * and the old node must be set as the left-child of the now node
  */
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
