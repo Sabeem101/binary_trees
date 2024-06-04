@@ -48,5 +48,10 @@ size_t binary_tree_nodes(const binary_tree_t *tree);
 int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int recursive_full(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree);
+int perfect_recursive(const binary_tree_t *tree, size_t leaf_depth, size_t level);
+const binary_tree_t *get_a_leaf(const binary_tree_t *tree);
+size_t depth(const binary_tree_t *tree);
+unsigned char leaf(const binary_tree_t *node);
 
 #endif
